@@ -29,7 +29,7 @@
    ```bash
    git clone <repository-url>
    cd AhmedPortfolio
-تثبيت الحزم:
+## تثبيت الحزم:
 npm install
 إعداد ملف البيئة .env: قم بإنشاء ملف .env في جذر المشروع وأضف القيم التالية:
 
@@ -37,8 +37,9 @@ DB_KEY = "mongodb+srv://<username>:<password>@<cluster-url>/<database-name>?retr
 
 IMGBB_API_KEY = " your-imgbb-api-key "
 
+---
+## هيكل المشروع
 
-هيكل المشروع
 
 AhmedPortfolio-Api/
 ├── .env
@@ -64,8 +65,8 @@ AhmedPortfolio-Api/
 │   ├── PUT/
 │       └── updateProject.js
 
-
-المسارات (Routes)
+---
+## المسارات (Routes)
 المشاريع
 إضافة مشروع جديد:
 
@@ -103,7 +104,8 @@ POST /api/admin/login
 
 GET /api/admin/check-session
 
-المساهمون
+---
+## المساهمون
 
 رمضان مهدي  - مطور المشروع.
 
