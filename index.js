@@ -17,7 +17,7 @@ const app = express();
 const port = 5000;
 //https://ahmed-mahdy.vercel.app/
 var corsOptions = {
-    origin: 'https://ahmed-mahdy.vercel.app/',
+    origin: 'https://ahmed-mahdy.vercel.app',
     optionsSuccessStatus: 200 , // some legacy browsers (IE11, various SmartTVs) choke on 204,
     credentials: true, // Enable set cookie
   }
